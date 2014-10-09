@@ -1,0 +1,6 @@
+<h1> {{ film.name }}</h1>
+<h2> {{ film.description }} </h2>
+
+<a href="/myapp/film/delete/{{film.id}}">  {{ "Удалить фильм" }}</a>
+<a href="/myapp/film/"> {{ "Назад" }}</a>
+

@@ -1,0 +1,11 @@
+<html>
+<body>
+    
+    <form action="newfilm/" method="post">
+        <input type="text" name="N">
+        <input type="text" name="D">
+        <input type="submit" value="Save">
+    </form>
+    
+</body>
+</html>

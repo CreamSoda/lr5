@@ -1,0 +1,12 @@
+<p>Запрос: <strong>{{ query }}</strong></p>
+
+{% if session_list %}
+    <p>Результаты: </p>
+    <ul>
+        {% for session in session_list %}
+        <li>{{session.start}}-{{session.end}} {{ session.film.name }} {{session.cinema.name}}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>Not found</p>
+{% endif %}

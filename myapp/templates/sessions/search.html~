@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Поиск</title>
+</head>
+<body>
+    <form action="search/" method="get">
+        <input type="text" name="q1">
+        <input type="text" name="q2">
+        <input type="submit" value="Search">
+    </form>
+    
+</body>
+</html>

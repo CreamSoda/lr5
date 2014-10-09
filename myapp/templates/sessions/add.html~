@@ -1,0 +1,13 @@
+<html>
+<body>
+    
+    <form action="newsession/" method="GET">
+        <input type="text" name="F">
+        <input type="text" name="C">
+        <input type="text" name="st">
+        <input type="text" name="ed">
+        <input type="submit" value="Save">
+    </form>
+    
+</body>
+</html>

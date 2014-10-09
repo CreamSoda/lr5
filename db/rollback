@@ -1,0 +1,2 @@
+use kinoafisha
+db.dropDatabase()

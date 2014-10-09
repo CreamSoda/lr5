@@ -1,0 +1,11 @@
+{% if session_list %}
+    <ul>
+    {% for session in session_list %}
+        <li><a href="{{ session.id }}/">{{ session.film.name }} {{ session.cinema.name }} : {{ session.start|date}}  - {{ session.end|date }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No sessions are available.</p>
+{% endif %}
+<a href="add/">{{"Добавить сеанс"}}</a>
+<a href="/myapp/">{{"Назад"}}</a>

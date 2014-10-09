@@ -1,0 +1,7 @@
+<h1> {{ session.film.name }}</h1>
+<h1> {{ session.cinema.name }} </h1>
+<h2> {{ session.start }} </h2>
+<h2> {{ session.end }} </h2>
+
+<a href="/myapp/session/delete/"> {{ "Удалить сеанс" }}</a>
+<a href="/myapp/session/"> {{ "Назад" }}</a>

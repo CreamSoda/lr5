@@ -1,0 +1,12 @@
+<p>Запрос: <strong>{{ query }}</strong></p>
+
+{% if cinema_list %}
+    <p>Результаты: </p>
+    <ul>
+        {% for cinema in cinema_list %}
+        <li>{{ cinema.name }} {{cinema.description}} {{cinema.adress}}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>Not found</p>
+{% endif %}
